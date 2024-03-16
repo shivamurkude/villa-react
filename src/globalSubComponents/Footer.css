@@ -1,0 +1,34 @@
+.footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3) 20%, rgba(0, 0, 0, 0.3)), url("../globalAssets/3355551.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen and (max-width: 1231px) {
+  .footer {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .upperFooter {
+    flex-direction: column;
+  }
+
+  .companySection {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 855px) {
+  .upperDivider,
+  .footerLinks {
+    display: none;
+  }
+
+  .contactInfo {
+    flex-direction: column;
+  }
+}

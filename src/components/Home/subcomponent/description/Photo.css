@@ -1,0 +1,8 @@
+.bg{
+  
+  background-image:
+    url("../../assets/JHJH.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
